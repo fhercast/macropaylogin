@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:id="@+id/lnheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/txtwelcome"
+            android:text="Bienvenido"
+            android:textAlignment="center"
+            android:fontFamily="@font/tango"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_margin="15dp"
+            android:textSize="25dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lnbody"
+
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+
+        <ImageView
+            android:id="@+id/codebar"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txttoken"
+            android:text="Token"
+            android:textAlignment="center"
+            android:fontFamily="@font/tango"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_margin="15dp"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtf"
+        android:text="Fernando Daniel Ayala Castro"
+        android:textAlignment="textEnd"
+        android:fontFamily="@font/tango"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"
+        android:textSize="14dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
