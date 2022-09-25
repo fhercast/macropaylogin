@@ -98,7 +98,7 @@ public class Login extends AppCompatActivity {
 
             @Override
             public void onErrorResponse(String e) {
-
+                Log.e("Error",e);
             }
         });
 
